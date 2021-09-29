@@ -39,6 +39,6 @@ public class Puesto {
     
     @Override
     public String toString(){
-        return "Puesto{ codigo= "+codigo+ ", nombrePuesto=" + nombrePuesto+ '}';
+        return "Puesto{codigo= "+codigo+ ", nombrePuesto=" + nombrePuesto+ "}";
     }
 }

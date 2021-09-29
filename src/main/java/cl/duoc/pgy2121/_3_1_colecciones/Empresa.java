@@ -41,10 +41,12 @@ public class Empresa {
     public boolean eliminaEmpleado(String rut){
         for(Empleado emp: listaEmpleados){
             if(emp.getRut().equals(rut)){
+                System.out.println("Se elimina empleado "+emp.getNombreEmpleado());
                 listaEmpleados.remove(emp);
                 return true;
             }
         }
+        System.out.println("No se ha encontrado empleado ");
         return false;
     }
 }

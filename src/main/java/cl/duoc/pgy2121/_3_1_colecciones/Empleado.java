@@ -78,6 +78,6 @@ public class Empleado {
     
     @Override
     public String toString(){
-        return "Empleado{ rut= "+rut+ ", nombreEmpleado=" + nombreEmpleado+ ",genero="+ genero +",anio="+anio+",edad="+edad +",puesto="+puesto+"}";
+        return "Empleado{rut= "+rut+ ", nombreEmpleado=" + nombreEmpleado+ ", genero="+ genero +", año="+anio+", edad="+edad +", puesto="+puesto+"}";
     }
 }
